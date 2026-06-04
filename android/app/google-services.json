@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511053793923",
+    "project_id": "stock-flutter-c3552",
+    "storage_bucket": "stock-flutter-c3552.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511053793923:android:0515df2ee7c1adc86de9b6",
+        "android_client_info": {
+          "package_name": "com.vipcoding.stock_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2KAf1ncObUqus9kaoqIA9cHhZOD3BpVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

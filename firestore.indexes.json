@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "fuel_entries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "filledAt", "order": "ASCENDING" },
+        { "fieldPath": "vehicleId", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "maintenances",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "performedAt", "order": "ASCENDING" },
+        { "fieldPath": "vehicleId", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
