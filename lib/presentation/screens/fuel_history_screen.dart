@@ -42,7 +42,7 @@ class FuelHistoryScreen extends ConsumerWidget {
     final from = ref.watch(_fuelHistoryFromProvider);
     final to = ref.watch(_fuelHistoryToProvider);
     final dateFormat = DateFormat.yMMMd('fr_FR');
-    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: '€');
+    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: 'MAD');
 
     Future<void> pickDate({required bool isFrom}) async {
       final initial =

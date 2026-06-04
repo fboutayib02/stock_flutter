@@ -162,7 +162,7 @@ class _AddMaintenanceScreenState extends ConsumerState<AddMaintenanceScreen> {
                       TextFormField(
                         controller: _amount,
                         decoration: const InputDecoration(
-                          labelText: 'Coût (€)',
+                          labelText: 'Coût (MAD)',
                           border: OutlineInputBorder(),
                         ),
                         keyboardType: const TextInputType.numberWithOptions(

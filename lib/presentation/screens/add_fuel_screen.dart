@@ -126,7 +126,7 @@ class _AddFuelScreenState extends ConsumerState<AddFuelScreen> {
                   TextFormField(
                     controller: _amount,
                     decoration: const InputDecoration(
-                      labelText: 'Montant (€)',
+                      labelText: 'Montant (MAD)',
                       border: OutlineInputBorder(),
                     ),
                     keyboardType:

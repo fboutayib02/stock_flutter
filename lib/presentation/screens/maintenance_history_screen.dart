@@ -43,7 +43,7 @@ class MaintenanceHistoryScreen extends ConsumerWidget {
     final from = ref.watch(_historyFromProvider);
     final to = ref.watch(_historyToProvider);
     final dateFormat = DateFormat.yMMMd('fr_FR');
-    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: '€');
+    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: 'MAD');
 
     Future<void> pickDate({required bool isFrom}) async {
       final initial =

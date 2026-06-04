@@ -17,7 +17,7 @@ class DashboardScreen extends ConsumerWidget {
     final labels = ref.watch(vehicleLabelsProvider);
     final month = ref.watch(dashboardMonthProvider);
     final monthLabel = DateFormat.yMMMM('fr_FR').format(month);
-    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: '€');
+    final currency = NumberFormat.currency(locale: 'fr_FR', symbol: 'MAD');
 
     return RefreshIndicator(
       onRefresh: () async {
